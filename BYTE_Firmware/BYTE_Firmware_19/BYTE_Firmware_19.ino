@@ -91,7 +91,7 @@ void calibrate(void){
   Keyboard.releaseAll();
   delay(500);
   Keyboard.print("textEdit");
-  delay(1000);
+  delay(100);
   Keyboard.press(KEY_RETURN);
   delay(100);
   Keyboard.releaseAll();
@@ -101,7 +101,7 @@ void calibrate(void){
   Keyboard.press('n');
   delay(500);
   Keyboard.releaseAll();
-  delay(500);
+  delay(1500);
   Keyboard.println("BYTE Calibration");
   Keyboard.press(KEY_RETURN);
   delay(100);
@@ -116,7 +116,7 @@ void calibrate(void){
   Keyboard.releaseAll(); 
   Keyboard.println("Hold the BYTE comfortably at rest...");
   Keyboard.press(KEY_RETURN);
-  delay(100);
+  delay(1000);
   Keyboard.releaseAll(); 
   getOffsets();
   Keyboard.print("  Baseline established");
@@ -434,7 +434,8 @@ void loop(void){
     else{
       // Too much change this update, so reset drift detection variables
       driftDetectionForce = forceMagnitude;
-      restTimer = 0;
+      restTimer = 0; 
+      
     }
 
     // Send some more debug info
