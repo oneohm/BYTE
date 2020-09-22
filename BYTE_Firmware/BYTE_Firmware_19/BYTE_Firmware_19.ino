@@ -365,7 +365,7 @@ void loop(void){
     int yForce = (fsrReadings[2]+fsrReadings[3])/2-(fsrReadings[0]+fsrReadings[1])/2; 
     int xForce = (fsrReadings[1]+fsrReadings[3])/2-(fsrReadings[0]+fsrReadings[2])/2;
   */ 
-  
+/*  
     // Seesaw coordinate system force measurements
     // This is more sensitive, but seems to drift more - requires good sensor preload force
     float y45Force = (fsrReadings[3] - fsrReadings[0])/2;
@@ -373,8 +373,8 @@ void loop(void){
     // Compute the cartesian coordinated force (45 degree rotation)
     float yForce = (y45Force - x45Force)/(0.70710678118);
     float xForce = (x45Force + y45Force)/(0.70710678118); 
-    
-  /*
+*/    
+
     // Experimental hybrid force calculation
     // Might be a nice balance of sensitivity and drift?
     int yForceA = (fsrReadings[2]+fsrReadings[3])/2-(fsrReadings[0]+fsrReadings[1])/2; 
@@ -388,7 +388,7 @@ void loop(void){
     // Average the two computed forces
     int yForce = (yForceA+yForceB)/2;
     int xForce = (xForceA+xForceB)/2;
-  */
+
 
     // Inertial Modification
     float forceMagnitude = sqrt(sq(yForce)+sq(xForce));
@@ -419,7 +419,7 @@ void loop(void){
     moveY = (int)yAccumulator; 
     xAccumulator = xAccumulator - moveX;
     yAccumulator = yAccumulator - moveY;
-    
+/*    
     // Drift Compensation
     // Watch for a period of rest with minimal change in force 
     if(abs(driftDetectionForce-forceMagnitude) <= driftDetectionChange){
@@ -434,9 +434,9 @@ void loop(void){
     else{
       // Too much change this update, so reset drift detection variables
       driftDetectionForce = forceMagnitude;
-      restTimer = 0; 
-      
+      restTimer = 0;     
     }
+*/
 
     // Send some more debug info
     Serial.println("XY Forces: ");
@@ -500,7 +500,7 @@ void loop(void){
         longClicked = false;
         pressClicked = false;
       }
-  
+/*  
       // Handle long clicks
       currentMillis = millis();
       if(!longClicked && (Mouse.isPressed() && ((currentMillis - clickStartTime) > longClickTime))){
@@ -510,7 +510,7 @@ void loop(void){
         delay(100);
         clickPulse();
       }
-  
+*/  
       // Handle press to click - Pressure applied to all quadrants at the same time
       if(!Mouse.isPressed() && !isBit &&
          (fsrReadings[0] >= (cal.baselineOffset[0] + pushClickForce))&&
