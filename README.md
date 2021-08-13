@@ -6,7 +6,7 @@ https://hackaday.io/project/171778-the-byte
 
 ## Repository Architecture
 
-This repository is divided by 4 main folder:
+This repository is divided by 4 main folders:
 
 - Docs: You'll find here our consult documents, and documentation of the project.
 - Firmware: You'll find here everything you need to build the firmware and in case of needed, modify it.
