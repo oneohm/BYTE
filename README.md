@@ -1,10 +1,34 @@
-# BYTE
+# The BYTE
 Full design package for the BYTE hands free interface
 
-Details are available on the Hackaday project page:
+Details are available on the Hackaday project page:`
 https://hackaday.io/project/171778-the-byte
 
-License Info:
+## Repository Architecture
+
+This repository is divided by 4 main folders:
+
+- Docs: You'll find here our consult documents, and documentation of the project.
+- Firmware: You'll find here everything you need to build the firmware and in case of needed, modify it.
+- Hardware: You'll find here the KiCad projects with theirs libraries so the design is fully portable.
+- Mechanical: You''ll find here all the FreeCad files to print/modify/understand the mechanics of the device.
+
+You will find more information on each README in each folder, in order to keep this readme short.
+
+
+# Previous Versions
+
+It's important to note that this repository is under development, if your interested on one "The Byte" device already working, you should jump to the [Realese section](https://github.com/oneohm/BYTE/releases) of this repository to get the V1.0
+
+## Version 1.0 
+
+The version 1.0 has this architecture based on Seeeduino XIAO and all the connection is done by USB.
+
+![Architecture](https://github.com/oneohm/BYTE/blob/master/Docs/Functional_Block_Diagram.png?raw=true)
+
+
+
+## License Info:
 
 Firmware is licensed under the GNU General Public License v3.0
 
