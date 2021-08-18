@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="15.0mm"
+   height="5.0mm"
+   viewBox="-7.500000 -8.140000 15.000000 5.000000"
+   version="1.1"
+   id="svg113"
+   sodipodi:docname="Logo_01.svg"
+   inkscape:export-filename="BYTE_Dev_Logo_01.png"
+   inkscape:export-xdpi="826.09344"
+   inkscape:export-ydpi="826.09344"
+   inkscape:version="1.0.2 (e86c8708, 2021-01-15)">
+  <metadata
+     id="metadata119">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs117" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1418"
+     inkscape:window-height="847"
+     id="namedview115"
+     showgrid="false"
+     inkscape:zoom="6.8313221"
+     inkscape:cx="29.310104"
+     inkscape:cy="7.0548421"
+     inkscape:window-x="0"
+     inkscape:window-y="23"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg113" />
+  <g
+     id="Sketch079"
+     transform="scale(-1)">
+    <path
+       id="Sketch079_w0000"
+       d="m 6.5,3.14 h -1 v 1 h -1 v 1 h 1 v -1 h 1 v -1 h 1 v 1 1 1 1 1 h -1 v -1 h -1 -1 v -1 h 1 v -1 h 1 v 1 h -1 v 1 1 h 1 m 1,-4 h -1 v 1 h 1 m 0,1 h -1 v 1 h 1"
+       stroke="#000000"
+       stroke-width="0.35 px"
+       style="fill:none;fill-rule:evenodd;stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none" />
+    <path
+       id="Sketch079_w0001"
+       d="m 3.5,7.14 v 1 h -1 v -1 -1 h 1 v 1 h -1 m -1,0 v -1 -1 -1 -1 h 1 v 1 1 1 h -1 -1 v 1 1 h 1 v -1 h -1 m 2,-3 h -1 m 0,1 h 1"
+       stroke="#000000"
+       stroke-width="0.35 px"
+       style="fill:none;fill-rule:evenodd;stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none" />
+    <path
+       id="Sketch079_w0002"
+       d="m -1.5,5.14 h -1 v -1 -1 h 1 v 1 1 1 1 h 1 v 1 h -1 v -1 h -1 v 1 h 1 m -1,0 h -1 v -1 h 1 v -1 -1 m 1,-1 h -1 m 0,2 h 1"
+       stroke="#000000"
+       stroke-width="0.35 px"
+       style="fill:none;fill-rule:evenodd;stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none" />
+    <path
+       id="Sketch079_w0003"
+       d="m -5.5,8.14 v -1 -1 -1 h 1 v 1 1 1 h -1 -1 v -1 h -1 v 1 h 1 m 2,-2 h -1 -1 -1 v -1 h 1 1 v -1 -1 h -1 -1 v 1 h 1 1 1 v -1 h -1 m 1,2 v -1 m -2,-1 v 1 m 0,1 v 1 m 2,1 h -1 -1"
+       stroke="#000000"
+       stroke-width="0.35 px"
+       style="fill:none;fill-rule:evenodd;stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none" />
+    <title
+       id="title110">b'Logo'</title>
+  </g>
+</svg>
