@@ -9,10 +9,12 @@ https://hackaday.io/project/171778-the-byte
  You'll find here the KiCad projects for the different sensor packs.
 
 - BYTE_Sensors.pretty: Library folder for all the KiCad footprints used in the sensor pack development.
-- BYTE_FSR: First sensor pack used, only FSR for X/Y axis.
-- BYTE_Bite: First sensor pack used, only FSR also for the bite.
-- ...more
 
+- BYTE_FSR: First sensor pack used, only FSR for X/Y axis.
+![BYTE_FSR](https://github.com/oneohm/BYTE/raw/master/Docs/assets/FSR_PCB.png)
+- BYTE_Bite: First sensor pack used, only FSR also for the bite.
+![BYTE_Bite](https://github.com/oneohm/BYTE/raw/master/Docs/assets/Bite_sensor.png)
+- ...more to come.
 
 ## License Info:
 
