@@ -1,4 +1,4 @@
-19378170932068026
+19379800666044920
 Aesthetics
 3v3
 
@@ -440,6 +440,13 @@ FSR_PCB
 0
 6
 6
+BYTE_Sensors
+Logo
+
+
+0
+0
+0
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
