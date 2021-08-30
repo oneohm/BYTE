@@ -1,4 +1,4 @@
-19379800666044920
+19381431623909878
 Aesthetics
 3v3
 
@@ -433,6 +433,13 @@ BiteSensor_PCB
 0
 2
 2
+BYTE_Sensors
+Capacitive_PCB
+
+
+0
+6
+6
 BYTE_Sensors
 FSR_PCB
 
