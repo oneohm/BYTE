@@ -14,6 +14,8 @@ https://hackaday.io/project/171778-the-byte
 ![BYTE_FSR](https://github.com/oneohm/BYTE/raw/master/Docs/assets/FSR_PCB.png)
 - BYTE_Bite: First sensor pack used, only FSR also for the bite.
 ![BYTE_Bite](https://github.com/oneohm/BYTE/raw/master/Docs/assets/Bite_sensor.png)
+- BYTE_Capacitive: Sensor intended to be used as capacitive feedback for FSR shift error.
+![BYTE_Capacitive](https://github.com/oneohm/BYTE/raw/master/Docs/assets/Capacitive_PCB.png)
 - ...more to come.
 
 ## License Info:
