@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name BYTE_Magnetic-rescue)(type Legacy)(uri ${KIPRJMOD}/BYTE_Magnetic-rescue.lib)(options "")(descr ""))
+  (lib (name magnetic_sensor)(type Legacy)(uri ${KIPRJMOD}/magnetic_sensor.lib)(options "")(descr ""))
+)

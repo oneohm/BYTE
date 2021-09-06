@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SI7210-B-10-IM2
+D Board Mount Hall Effect / Magnetic Sensors IC Hall Sensor I2C High Push Pull(0x30)
+F https://www.silabs.com/documents/public/data-sheets/si7210-datasheet.pdf
+$ENDCMP
+#
+#End Doc Library
