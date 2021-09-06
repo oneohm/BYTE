@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name capacitive_sensor)(type Legacy)(uri ${KIPRJMOD}/capacitive_sensor.lib)(options "")(descr ""))
+)

@@ -1,0 +1,18 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AD7147PACPZ-1500R7
+D AD7147PACPZ-1500R7, Capacitance to Digital Converter, 16 bit- 24-Pin LFCSP EP
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD7147.pdf
+$ENDCMP
+#
+$CMP DRV2605YZFR
+D Haptic Driver for ERM/LRA with Built-In Library and Smart Loop Architecture
+F http://www.ti.com/lit/gpn/drv2605
+$ENDCMP
+#
+$CMP Si7217-B-01-IV
+D Board Mount Hall Effect / Magnetic Sensors Linear output Hall effect magnetic sensor with analog output
+F https://componentsearchengine.com/Datasheets/1/SI7217-B-01-IV.pdf
+$ENDCMP
+#
+#End Doc Library
