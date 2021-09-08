@@ -5,6 +5,11 @@ D AD7147PACPZ-1500R7, Capacitance to Digital Converter, 16 bit- 24-Pin LFCSP EP
 F http://www.analog.com/media/en/technical-documentation/data-sheets/AD7147.pdf
 $ENDCMP
 #
+$CMP DRV2605LDGST
+D ERM & LRA Device Haptic Driver 2-5V BGA9 Texas Instruments DRV2605LDGST Piezo Haptic Motor Driver IC, 5 V, 10-Pin VSSOP
+F http://www.ti.com/lit/ds/symlink/drv2605l.pdf
+$ENDCMP
+#
 $CMP DRV2605YZFR
 D Haptic Driver for ERM/LRA with Built-In Library and Smart Loop Architecture
 F http://www.ti.com/lit/gpn/drv2605

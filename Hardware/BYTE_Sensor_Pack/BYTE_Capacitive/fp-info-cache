@@ -1,4 +1,4 @@
-19386324331602499
+19394479387112768
 Aesthetics
 3v3
 
@@ -448,12 +448,26 @@ Capacitive_PCB
 6
 6
 BYTE_Sensors
+Capacitive_PCB_NoConnector
+
+
+0
+4
+4
+BYTE_Sensors
 FSR_PCB
 
 
 0
 6
 6
+BYTE_Sensors
+Flex_Connector
+
+
+0
+5
+5
 BYTE_Sensors
 Logo
 
@@ -462,12 +476,33 @@ Logo
 0
 0
 BYTE_Sensors
+Magnetic_PCB
+
+
+0
+6
+6
+BYTE_Sensors
 QFN50P400X400X80-25N-D
 24-LFCSP-WQ (4x4)_2020
 Integrated Circuit
 0
 25
 25
+BYTE_Sensors
+SON40P140X160X40-8N-D
+tdfn-8
+Integrated Circuit
+0
+8
+8
+BYTE_Sensors
+SOP50P490X110-10N
+DGS (S-PDSO-G10)
+Integrated Circuit
+0
+10
+10
 BYTE_Sensors
 SOT95P275X125-5N
 SI7210-B-01-IV
