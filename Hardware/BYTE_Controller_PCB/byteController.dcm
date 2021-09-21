@@ -1,0 +1,14 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BL653
+D Bluetooth module
+K Bluetooth Nordic nRF52833
+F https://www.lairdconnect.com/documentation/datasheet-bl653-series
+$ENDCMP
+#
+$CMP MCP73830T-2AAI_MYY
+D Battery Management 1A LI-ION BATTERY CHARGE MGNT CNTRLR
+F http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en555820
+$ENDCMP
+#
+#End Doc Library

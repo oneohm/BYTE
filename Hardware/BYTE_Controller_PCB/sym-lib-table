@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name byteController)(type Legacy)(uri ${KIPRJMOD}/byteController.lib)(options "")(descr ""))
+)
