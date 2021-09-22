@@ -13,66 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Label 2020 1260 0    50   ~ 0
-SCL
-Text Label 2020 1360 0    50   ~ 0
-SDA
-$Comp
-L power:+3.3V #PWR0107
-U 1 1 6139A81A
-P 2450 980
-F 0 "#PWR0107" H 2450 830 50  0001 C CNN
-F 1 "+3.3V" H 2465 1153 50  0000 C CNN
-F 2 "" H 2450 980 50  0001 C CNN
-F 3 "" H 2450 980 50  0001 C CNN
-	1    2450 980 
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3.3V #PWR0108
-U 1 1 6139B3E0
-P 2725 975
-F 0 "#PWR0108" H 2725 825 50  0001 C CNN
-F 1 "+3.3V" H 2740 1148 50  0000 C CNN
-F 2 "" H 2725 975 50  0001 C CNN
-F 3 "" H 2725 975 50  0001 C CNN
-	1    2725 975 
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R1
-U 1 1 6139B985
-P 2450 1115
-F 0 "R1" H 2315 1155 50  0000 L CNN
-F 1 "2.2K" H 2245 1070 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 2450 1115 50  0001 C CNN
-F 3 "~" H 2450 1115 50  0001 C CNN
-	1    2450 1115
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2725 975  2725 1015
-Wire Wire Line
-	2450 980  2450 1015
-Wire Wire Line
-	2450 1260 2450 1215
-Wire Wire Line
-	2020 1260 2450 1260
-Wire Wire Line
-	2020 1360 2725 1360
-Wire Wire Line
-	2725 1215 2725 1360
-$Comp
-L Device:R_Small R2
-U 1 1 6139C2A7
-P 2725 1115
-F 0 "R2" H 2590 1150 50  0000 L CNN
-F 1 "2.2K" H 2515 1080 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 2725 1115 50  0001 C CNN
-F 3 "~" H 2725 1115 50  0001 C CNN
-	1    2725 1115
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9475 1420 9985 1420
 Wire Wire Line
@@ -642,14 +582,14 @@ Text Label 4805 2215 0    50   ~ 0
 A3
 Wire Wire Line
 	4805 2215 4985 2215
-Text Label 3615 2080 2    50   ~ 0
+Text Label 3615 2180 2    50   ~ 0
 A0
 Wire Wire Line
-	3615 2080 3435 2080
-Text Label 4040 1940 2    50   ~ 0
+	3615 2180 3435 2180
+Text Label 3615 2080 2    50   ~ 0
 A1
 Wire Wire Line
-	4040 1940 3860 1940
+	3615 2080 3435 2080
 Text Label 3615 1880 2    50   ~ 0
 A2
 Wire Wire Line
@@ -682,93 +622,52 @@ F 4 "SI7210-B-12-IM2" H 5235 4095 50  0001 L CNN "manf#"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R3
-U 1 1 6146D0E5
-P 4305 2635
-F 0 "R3" V 4300 2585 50  0000 L CNN
-F 1 "10K" V 4300 2195 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 4305 2635 50  0001 C CNN
-F 3 "~" H 4305 2635 50  0001 C CNN
-	1    4305 2635
-	-1   0    0    1   
-$EndComp
-Text Label 4005 2355 3    50   ~ 0
-A0
-Wire Wire Line
-	4005 2355 4005 2535
-Text Label 4105 2355 3    50   ~ 0
-A1
-Wire Wire Line
-	4105 2355 4105 2535
-Text Label 4205 2355 3    50   ~ 0
-A2
-Wire Wire Line
-	4205 2355 4205 2535
-Text Label 4305 2355 3    50   ~ 0
-A3
-Wire Wire Line
-	4305 2355 4305 2535
-$Comp
-L Device:R_Small R4
-U 1 1 61479B09
-P 4205 2635
-F 0 "R4" V 4200 2580 50  0000 L CNN
-F 1 "10K" V 4205 2195 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 4205 2635 50  0001 C CNN
-F 3 "~" H 4205 2635 50  0001 C CNN
-	1    4205 2635
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R_Small R5
-U 1 1 6147E339
-P 4105 2635
-F 0 "R5" V 4100 2580 50  0000 L CNN
-F 1 "10K" V 4105 2200 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 4105 2635 50  0001 C CNN
-F 3 "~" H 4105 2635 50  0001 C CNN
-	1    4105 2635
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R_Small R6
-U 1 1 6147E7F5
-P 4005 2635
-F 0 "R6" V 4000 2580 50  0000 L CNN
-F 1 "10K" V 4005 2200 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 4005 2635 50  0001 C CNN
-F 3 "~" H 4005 2635 50  0001 C CNN
-	1    4005 2635
+L Device:R_Pack04 RN1
+U 1 1 61491CB7
+P 4150 2600
+F 0 "RN1" H 4338 2646 50  0000 L CNN
+F 1 "R_Pack04" H 4338 2555 50  0000 L CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 4425 2600 50  0001 C CNN
+F 3 "~" H 4150 2600 50  0001 C CNN
+	1    4150 2600
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	4005 2735 4005 2805
+	4050 2800 4150 2800
 Wire Wire Line
-	4005 2805 4105 2805
-Connection ~ 4305 2805
+	4150 2800 4250 2800
+Connection ~ 4150 2800
 Wire Wire Line
-	4305 2805 4305 2735
-Wire Wire Line
-	4205 2735 4205 2805
-Connection ~ 4205 2805
-Wire Wire Line
-	4205 2805 4305 2805
-Wire Wire Line
-	4105 2735 4105 2805
-Connection ~ 4105 2805
-Wire Wire Line
-	4105 2805 4205 2805
+	4250 2800 4350 2800
+Connection ~ 4250 2800
 $Comp
-L power:GND #PWR0118
-U 1 1 61495E33
-P 4305 2885
-F 0 "#PWR0118" H 4305 2635 50  0001 C CNN
-F 1 "GND" H 4310 2712 50  0000 C CNN
-F 2 "" H 4305 2885 50  0001 C CNN
-F 3 "" H 4305 2885 50  0001 C CNN
-	1    4305 2885
+L power:GND #PWR0107
+U 1 1 614A2797
+P 4350 2850
+F 0 "#PWR0107" H 4350 2600 50  0001 C CNN
+F 1 "GND" H 4355 2677 50  0000 C CNN
+F 2 "" H 4350 2850 50  0001 C CNN
+F 3 "" H 4350 2850 50  0001 C CNN
+	1    4350 2850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4305 2805 4305 2885
+	4350 2850 4350 2800
+Connection ~ 4350 2800
+Wire Wire Line
+	4050 2250 4050 2400
+Wire Wire Line
+	4150 2400 4150 2250
+Wire Wire Line
+	4250 2400 4250 2250
+Wire Wire Line
+	4350 2400 4350 2250
+Text Label 4150 2250 3    50   ~ 0
+A1
+Text Label 4050 2250 3    50   ~ 0
+A0
+Text Label 4250 2250 3    50   ~ 0
+A2
+Text Label 4350 2250 3    50   ~ 0
+A3
 $EndSCHEMATC
