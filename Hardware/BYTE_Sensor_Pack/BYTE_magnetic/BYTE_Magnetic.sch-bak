@@ -662,12 +662,80 @@ Wire Wire Line
 	4250 2400 4250 2250
 Wire Wire Line
 	4350 2400 4350 2250
-Text Label 4150 2250 3    50   ~ 0
-A1
 Text Label 4050 2250 3    50   ~ 0
+A1
+Text Label 4150 2250 3    50   ~ 0
 A0
-Text Label 4250 2250 3    50   ~ 0
-A2
 Text Label 4350 2250 3    50   ~ 0
+A2
+Text Label 4250 2250 3    50   ~ 0
 A3
+$Comp
+L Device:D_Small D?
+U 1 1 614CCBCC
+P 5470 4255
+F 0 "D?" V 5424 4325 50  0000 L CNN
+F 1 "D_Small" V 5515 4325 50  0000 L CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 5470 4255 50  0001 C CNN
+F 3 "~" V 5470 4255 50  0001 C CNN
+	1    5470 4255
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5470 4355 5470 4445
+Wire Wire Line
+	5470 4445 5385 4445
+$Comp
+L Device:D_Small D?
+U 1 1 614D0F0E
+P 7415 4255
+F 0 "D?" V 7369 4325 50  0000 L CNN
+F 1 "D_Small" V 7460 4325 50  0000 L CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 7415 4255 50  0001 C CNN
+F 3 "~" V 7415 4255 50  0001 C CNN
+	1    7415 4255
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7415 4355 7415 4445
+Wire Wire Line
+	7415 4445 7330 4445
+$Comp
+L Device:D_Small D?
+U 1 1 614D3973
+P 9305 4245
+F 0 "D?" V 9259 4315 50  0000 L CNN
+F 1 "D_Small" V 9350 4315 50  0000 L CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 9305 4245 50  0001 C CNN
+F 3 "~" V 9305 4245 50  0001 C CNN
+	1    9305 4245
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9305 4345 9305 4445
+Wire Wire Line
+	9305 4445 9200 4445
+Text Label 9305 4070 0    50   ~ 0
+magneticSignal
+Wire Wire Line
+	9305 4070 9305 4145
+Text Label 7415 4080 0    50   ~ 0
+magneticSignal
+Wire Wire Line
+	7415 4080 7415 4155
+Text Label 5470 4080 0    50   ~ 0
+magneticSignal
+Wire Wire Line
+	5470 4080 5470 4155
+$Comp
+L magnetic_sensor:PTCA9416DTMR U?
+U 1 1 614EB528
+P 1020 4400
+F 0 "U?" H 1820 4887 60  0000 C CNN
+F 1 "PTCA9416DTMR" H 1820 4781 60  0000 C CNN
+F 2 "X2SON8_DTM_TEX" H 1820 4740 60  0001 C CNN
+F 3 "" H 1020 4400 60  0000 C CNN
+	1    1020 4400
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
