@@ -1,4 +1,4 @@
-42426312980152
+26094877929727
 BYTE_Sensors
 BGA9C50P3X3_144X144X62
 DRV2605YZFR-1
@@ -6,13 +6,6 @@ Integrated Circuit
 0
 9
 9
-BYTE_Sensors
-BYTE_FSR_21
-Flex_StepUp_FSR_12 StepUp generated footprint
-
-0
-8
-1
 BYTE_Sensors
 BiteSensor_PCB
 
@@ -42,76 +35,6 @@ FSR_13mm
 4
 4
 BYTE_Sensors
-FSR_23
-Flex_StepUp_FSR_12 StepUp generated footprint
-
-0
-8
-1
-BYTE_Sensors
-FSR_25
-Flex_StepUp_FSR_12 StepUp generated footprint
-
-0
-8
-1
-BYTE_Sensors
-FSR_27
-Flex_StepUp_FSR_12 StepUp generated footprint
-
-0
-7
-1
-BYTE_Sensors
-FSR_28
-Flex_StepUp_FSR_12 StepUp generated footprint
-
-0
-7
-1
-BYTE_Sensors
-FSR_29
-Flex_StepUp_FSR_12 StepUp generated footprint
-
-0
-7
-1
-BYTE_Sensors
-FSR_30
-Flex_StepUp_FSR_12 StepUp generated footprint
-
-0
-7
-1
-BYTE_Sensors
-FSR_32
-Flex_StepUp_FSR_12 StepUp generated footprint
-
-0
-7
-1
-BYTE_Sensors
-FSR_33
-Flex_StepUp_FSR_12 StepUp generated footprint
-
-0
-7
-1
-BYTE_Sensors
-FSR_34
-Flex_StepUp_FSR_12 StepUp generated footprint
-
-0
-7
-5
-BYTE_Sensors
-FSR_36
-Flex_StepUp_FSR_12 StepUp generated footprint
-
-0
-7
-7
-BYTE_Sensors
 FSR_PCB
 
 
@@ -139,6 +62,13 @@ Magnetic_PCB
 0
 6
 6
+BYTE_Sensors
+PTCA9416DTMR
+
+
+0
+8
+8
 BYTE_Sensors
 QFN50P400X400X80-25N-D
 24-LFCSP-WQ (4x4)_2020
