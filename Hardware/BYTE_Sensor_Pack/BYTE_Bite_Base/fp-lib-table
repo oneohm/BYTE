@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name BYTE_Sensors)(type KiCad)(uri ${BYTE_SENSOR}/BYTE_Sensors.pretty)(options "")(descr ""))
+)
