@@ -2,7 +2,7 @@
 
   (general
     (thickness 0.8)
-    (drawings 140)
+    (drawings 141)
     (tracks 366)
     (zones 0)
     (modules 20)
@@ -94,7 +94,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "./"))
+      (outputdirectory "magneticSensorV1.0Gerbers/"))
   )
 
   (net 0 "")
@@ -161,7 +161,7 @@
     (uvia_drill 0.1)
   )
 
-  (module BYTE_Sensors:FSR_36 (layer F.Cu) (tedit 6145015F) (tstamp 61435F0F)
+  (module BYTE_Sensors:FSR_36 (layer F.Cu) (tedit 615E3707) (tstamp 61435F0F)
     (at 182.01132 111.6711)
     (descr "Flex_StepUp_FSR_12 StepUp generated footprint")
     (attr smd)
@@ -180,7 +180,6 @@
     (fp_text user %R (at 0 -8) (layer F.Fab)
       (effects (font (size 0.8 0.8) (thickness 0.12)))
     )
-    (pad "#" np_thru_hole circle (at 0 0) (size 2.7 2.7) (drill 2.7) (layers *.Cu *.Mask))
     (pad 5 smd custom (at 5.346 6.8) (size 0.2 0.2) (layers F.Cu)
       (net 4 /SDA) (zone_connect 0)
       (options (clearance outline) (anchor circle))
@@ -220,7 +219,7 @@
            (xy -0.034 0.146) (xy -0.094 0.117) (xy -0.136 0.064) (xy -0.15 -0.001) (xy -0.135 -0.066)
            (xy -0.093 -0.118)) (width 0))
       ))
-    (pad 1 smd custom (at -1.25 6.8) (size 0.2 0.2) (layers F.Cu F.Mask)
+    (pad 1 smd custom (at -1.25 6.8) (size 0.2 0.2) (layers F.Cu)
       (net 13 /A1) (zone_connect 0)
       (options (clearance outline) (anchor circle))
       (primitives
@@ -289,7 +288,7 @@
            (xy 2.709 -9.924) (xy 2.707 -9.827) (xy 2.673 -9.736) (xy 2.609 -9.662) (xy 2.524 -9.615)
            (xy 2.428 -9.6) (xy 2.332 -9.619)) (width 0))
       ))
-    (pad 2 smd custom (at 1.1 6.8) (size 0.2 0.2) (layers F.Cu F.Mask)
+    (pad 2 smd custom (at 1.1 6.8) (size 0.2 0.2) (layers F.Cu)
       (net 14 /A2) (zone_connect 0)
       (options (clearance outline) (anchor circle))
       (primitives
@@ -358,7 +357,7 @@
            (xy 3.285 -7.613) (xy 3.341 -7.208) (xy 3.36 -6.8) (xy 3.341 -6.392) (xy 3.285 -5.987)
            (xy 3.192 -5.589) (xy 3.063 -5.202)) (width 0))
       ))
-    (pad 3 smd custom (at -0.46 6.8) (size 0.2 0.2) (layers F.Cu F.Mask)
+    (pad 3 smd custom (at -0.46 6.8) (size 0.2 0.2) (layers F.Cu)
       (net 12 /A0) (zone_connect 0)
       (options (clearance outline) (anchor circle))
       (primitives
@@ -413,7 +412,7 @@
            (xy -2.297 -5.609) (xy -2.358 -5.718) (xy -2.456 -6.019) (xy -2.522 -6.328) (xy -2.555 -6.642)
            (xy -2.555 -6.958) (xy -2.522 -7.272) (xy -2.456 -7.581) (xy -2.358 -7.882)) (width 0))
       ))
-    (pad 4 smd custom (at 0.3 6.8) (size 0.2 0.2) (layers F.Cu F.Mask)
+    (pad 4 smd custom (at 0.3 6.8) (size 0.2 0.2) (layers F.Cu)
       (net 15 /A3) (zone_connect 0)
       (options (clearance outline) (anchor circle))
       (primitives
@@ -1415,6 +1414,7 @@
     )
   )
 
+  (gr_circle (center 182.01 111.67) (end 185.53 111.5) (layer F.Mask) (width 6))
   (gr_text SDA (at 177.69 119.32 90) (layer F.SilkS) (tstamp 613921CE)
     (effects (font (size 0.8 0.8) (thickness 0.12)))
   )
@@ -1566,7 +1566,6 @@
     (effects (font (size 0.8 0.8) (thickness 0.12)))
   )
 
-  (via (at 181.57 103.02) (size 0.75) (drill 0.4) (layers F.Cu B.Cu) (net 4))
   (segment (start 178.849239 115.600711) (end 178.578539 115.330011) (width 0.15) (layer B.Cu) (net 1))
   (segment (start 178.578539 115.330011) (end 178.306443 115.330011) (width 0.15) (layer B.Cu) (net 1))
   (segment (start 178.306443 115.330011) (end 177.796454 115.84) (width 0.15) (layer B.Cu) (net 1))
@@ -1738,6 +1737,7 @@
   (segment (start 175.9 119.76) (end 176.08 119.58) (width 0.15) (layer B.Cu) (net 3))
   (segment (start 176.08 119.58) (end 178.26 119.58) (width 0.15) (layer B.Cu) (net 3))
   (segment (start 178.26 119.58) (end 178.53 119.31) (width 0.15) (layer B.Cu) (net 3))
+  (via (at 181.57 103.02) (size 0.75) (drill 0.4) (layers F.Cu B.Cu) (net 4))
   (segment (start 187.239239 115.459289) (end 186.89 115.808528) (width 0.2) (layer B.Cu) (net 4))
   (via (at 187.26 118.74) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 4))
   (segment (start 186.89 118.37) (end 187.26 118.74) (width 0.2) (layer B.Cu) (net 4))
@@ -1933,7 +1933,7 @@
   (segment (start 180.40296 121.00296) (end 180.17 120.77) (width 0.15) (layer B.Cu) (net 22))
   (segment (start 181.50886 121.00296) (end 180.40296 121.00296) (width 0.15) (layer B.Cu) (net 22))
 
-  (zone (net 1) (net_name GND) (layer F.Cu) (tstamp 614A5E72) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer F.Cu) (tstamp 615E31D1) (hatch edge 0.508)
     (connect_pads yes (clearance 0.508))
     (min_thickness 0.15)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -2021,7 +2021,7 @@
       )
     )
   )
-  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 614A5E6F) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 615E31CE) (hatch edge 0.508)
     (connect_pads (clearance 0.2))
     (min_thickness 0.15)
     (fill yes (arc_segments 32) (thermal_gap 0.3) (thermal_bridge_width 0.4))

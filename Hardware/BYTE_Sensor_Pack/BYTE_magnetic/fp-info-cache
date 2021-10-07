@@ -1,4 +1,4 @@
-19238908965974692
+19240542356035192
 BYTE_Sensors
 BGA9C50P3X3_144X144X62
 DRV2605YZFR-1
@@ -13,6 +13,13 @@ BiteSensor_PCB
 0
 2
 2
+BYTE_Sensors
+BiteSensor_PCB_base
+
+
+0
+0
+0
 BYTE_Sensors
 Capacitive_PCB
 

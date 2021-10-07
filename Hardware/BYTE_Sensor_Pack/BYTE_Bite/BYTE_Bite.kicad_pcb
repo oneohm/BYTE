@@ -61,7 +61,7 @@
     (aux_axis_origin 0 0)
     (visible_elements 7FFFFFFF)
     (pcbplotparams
-      (layerselection 0x010fc_ffffffff)
+      (layerselection 0x010ff_ffffffff)
       (usegerberextensions false)
       (usegerberattributes true)
       (usegerberadvancedattributes true)
@@ -84,9 +84,9 @@
       (subtractmaskfromsilk false)
       (outputformat 1)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ""))
+      (outputdirectory "BYTE_bite_v0.1_Gerber/"))
   )
 
   (net 0 "")
@@ -104,7 +104,7 @@
     (add_net "Net-(J1-Pad2)")
   )
 
-  (module BYTE_Sensors:BiteSensor_PCB (layer F.Cu) (tedit 612D1C5C) (tstamp 612D7DDA)
+  (module BYTE_Sensors:BiteSensor_PCB (layer F.Cu) (tedit 615E34A9) (tstamp 612D7DDA)
     (at 156.02 82.87)
     (path /6123C33D)
     (fp_text reference J1 (at 8.51 11.08) (layer F.SilkS) hide
@@ -120,10 +120,6 @@
       (xy 2.28092 18.95602) (xy 1.90246 18.62328) (xy 1.5875 18.28038) (xy 1.35382 17.95018)
       (xy 1.22428 17.75714) (xy 0.97536 17.25168) (xy 0.92456 17.04086) (xy 0.8382 16.62176)
       (xy 0.8001 16.17472) (xy 0.67056 15.82674)) (layer F.Mask) (width 0.1))
-    (fp_poly (pts (xy 9.6 12.3) (xy 10.3 12.7) (xy 10.7 13.5) (xy 10.8 14)
-      (xy 10.8 16.05534) (xy -1.4 16.05534) (xy -1.4 14) (xy -1.31 13.52)
-      (xy -1.17 13.14) (xy -0.94 12.8) (xy -0.49 12.41) (xy -0.19 12.26)
-      (xy 0.3 12.1) (xy 9.1 12.1)) (layer F.Mask) (width 0.1))
     (fp_line (start -1.4 14.1) (end -1.4 14.1) (layer Edge.Cuts) (width 0.1))
     (fp_line (start -1.39021 13.90232) (end -1.4 14.1) (layer Edge.Cuts) (width 0.1))
     (fp_line (start -1.36122 13.708) (end -1.39021 13.90232) (layer Edge.Cuts) (width 0.1))
@@ -334,6 +330,7 @@
       (xy 8.661082 17.116713) (xy 8.728955 16.838662) (xy 8.790464 16.527613) (xy 8.807377 16.430625)
       (xy 8.855001 16.150167) (xy 10.625667 16.150167) (xy 10.625667 20.933834) (xy -1.312333 20.933834)
       (xy -1.312333 16.150167) (xy -0.296333 16.150167) (xy -0.093466 16.150335)) (layer F.Cu) (width 0.01))
+    (fp_poly (pts (xy 8.82 15.81) (xy 0.72 15.81) (xy 0.72 12.31) (xy 8.82 12.31)) (layer F.Mask) (width 0.1))
     (pad 1 thru_hole circle (at -0.38 14.13) (size 1 1) (drill 0.5) (layers *.Cu *.Mask)
       (net 1 "Net-(J1-Pad1)"))
     (pad 2 thru_hole circle (at 9.68 14.16) (size 1 1) (drill 0.5) (layers *.Cu *.Mask)
